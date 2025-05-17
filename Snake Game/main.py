@@ -44,7 +44,5 @@ while game_on:
         elif snake.head.distance(segment)<10:
             game_on=False
             score.Game_Over()
-    
-       
-
+            
 screen.exitonclick()
